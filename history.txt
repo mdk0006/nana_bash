@@ -1,0 +1,5 @@
+    5  sudo useradd -G devops danish2
+    8  sudo gpasswd -d danish2 devops 
+   11  history | grep -i sudo > history.txt
+   12  sudo history | grep -i sudo > history.txt
+   14  history | grep -i sudo > history.txt
